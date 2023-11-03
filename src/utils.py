@@ -4,8 +4,8 @@ import dill
 import pickle
 import numpy as np
 import pandas as pd
-sys.path.insert(0, r'C:\Users\ajayarax\OneDrive - Intel Corporation\JE_demo\mlproject\src')
-from exception import CustomException
+#sys.path.insert(0, r'C:\Users\ajayarax\OneDrive - Intel Corporation\JE_demo\mlproject\src')
+from src.exception import CustomException
 #from utils import save_object
 from sklearn.metrics import r2_score
 from sklearn.model_selection import GridSearchCV

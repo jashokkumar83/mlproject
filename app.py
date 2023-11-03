@@ -2,8 +2,9 @@ from flask import Flask, request, render_template
 import numpy as np
 import pandas as pd
 import sys
-sys.path.insert(0, r'C:\Users\ajayarax\OneDrive - Intel Corporation\JE_demo\mlproject\src')
-from pipeline.predict_pipeline import CustomData, PredictPipeline
+
+#sys.path.insert(0, r'C:\Users\ajayarax\OneDrive - Intel Corporation\JE_demo\mlproject\src')
+from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 from sklearn.preprocessing import StandardScaler
 
 application = Flask(__name__)

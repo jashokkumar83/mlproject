@@ -1,10 +1,11 @@
 import sys
 import os
+
 import pandas as pd
-sys.path.insert(0, r'C:\Users\ajayarax\OneDrive - Intel Corporation\JE_demo\mlproject\src')
-from exception import CustomException
-from logger import logging
-from utils import load_object
+#sys.path.insert(0, r'C:\Users\ajayarax\OneDrive - Intel Corporation\JE_demo\mlproject\src')
+from src.exception import CustomException
+from src.logger import logging
+from src.utils import load_object
 
 class PredictPipeline:
     def __init__(self):
